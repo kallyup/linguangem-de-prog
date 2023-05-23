@@ -17,6 +17,14 @@ jogo3 = {'Nome': 'Pokemon Yellow', 'videogame': 'GameBoy', 'Ano': 1999}
 
 listaJogos = [jogo1,jogo2,jogo3]
 
+jogo = {'Nome':'Super Mario',
+        'Desenvolvedora':'Nintendo',
+        'Ano':1990}
+
+jogo.update({'Ano':1991,'Genero':'Plataforma'}) # update altera o dicionário
+
+print(jogo)
+
 
 print(listaJogos)
 #Vai acessar a informação MArio Kart 64
